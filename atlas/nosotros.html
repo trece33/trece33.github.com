@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>NombreEmpresa </title>
+	<link rel="stylesheet" href="assets/themes/atlas/css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script src="assets/themes/atlas/js/jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+	$(".dropbtn").click(function(){
+	  $("#dropdown").slideToggle("slow");
+	  $(this).toggleClass("active");
+	});
+	
+});
+	</script>
+	<script src="assets/themes/atlas/js/jquery.quicksand.js"></script>
+</head>
+
+<body>
+<div id="dropcontainer">
+<div id="dropdown" >
+	
+	<div class="container">
+	
+		<div id="nosotros">
+			<h2>Yo&#44; I&#39;m Johnny Doe&#46;</h2>
+			
+			<p>Iste natus error sit voluptatem accusantium doloremque laudantium&#44; totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&#46;Nemo enim ipsam voluptatem quia voluptas sit&#46;</p>
+			<p>Neque porro quisquam est&#44; qui dolorem ipsum quia dolor sit amet&#44; consectetur, adipisci velit&#44; sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat&#46;</p>
+			<h5 class="dropquote">&#8220;Everything is designed&#46; Few things are designed well&#8230;&#8221;</h5>
+		</div>	
+
+		<div id="contacto">
+			<h2>Mantente en Contacto.</h2>
+			<form>
+				<input type="text" placeholder="Your Name&#46;&#46;&#46;">
+				<input type="email" placeholder="Your Email&#46;&#46;&#46;">
+				<textarea placeholder="Your Message&#46;&#46;&#46;"></textarea>
+				<input type="submit" value="Enviar &rarr;" class="dropsubmitbtn">
+			</form>
+		</div>
+		
+	</div><!--container end-->
+
+</div>
+
+</div>
+
+<div class="container">
+	<header class="cf">
+		<a href="#" class="dropbtn ">Nosotros</a>
+		<h1 class="logo"><img src="images/logo.png" alt="Atlas" >NombreEmpresa </h1>
+		<h2 class="subtitle"> Eslogan identificativo de la Empresa. </h2>
+	</header>
+	<nav id="filter">
+		<a href="#">camisas</a>
+	</nav>
+		<div class="portfoliocontainer">  </div>
+		<script type='text/javascript'>
+          $(function(){
+              $('<div class=categoria></div>').load('pullover/index.html').appendTo('.portfoliocontainer');$('<div class=categoria></div>').load('camisas/index.html').appendTo('.portfoliocontainer');
+          })
+      </script>
+
+		<footer>
+			<span>&copy; Copyright 2011 Atlas&#46;</span>
+			<h2>Atlas HTML Theme by <a href="http://purtypixels.com" title="PurtyPixels">Purty Pixels</a></h2>
+			<h3>Enviame un <a href="#" title="Twitter">correo</a> o llamame a 769854 </h3>
+		</footer>
+</div><!--container end-->
+<script src="assets/themes/atlas/js/script.js"></script>
+
+</body>
+</html>
+
